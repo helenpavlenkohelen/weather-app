@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>WEATHER_PROJECT</title>
+		<link rel="stylesheet" href="font_awesome.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<form class="search">
+					<i class="fa-solid fa-location-dot"></i>
+					<input
+						class="search__input"
+						type="text"
+						placeholder="enter city"
+					/>
+					<button class="fa-solid fa-magnifying-glass"></button>
+				</form>
+				<div class="search-error">
+					<p>Couldn't find weather</p>
+				</div>
+				<section class="weather-main hidden">
+					<div class="weather-main__item">
+						<i class="weather__icon fa-solid fa-cloud"></i>
+						<h1 class="temp"></h1>
+					</div>
+					<h2 class="city"></h2>
+					<div class="weather-main__item-info">
+						<div class="info__water">
+							<i class="fa-solid fa-water"></i>
+							<div class="humidity">
+								<p></p>
+								<p>Humidity</p>
+							</div>
+						</div>
+						<div class="info__wind">
+							<i class="fa-solid fa-wind"></i>
+							<div class="wind">
+								<p></p>
+								<p>Wind speed</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="wrapper-country">
+				<div class="container-weather__items">
+					<section class="weather__item">
+						<div class="weather__city">
+							<h2 class="weather__city-name">Kyiv</h2>
+						</div>
+						<i
+							class="weather__icon fa-solid fa-cloud"
+							id="icons"
+						></i>
+						<h2 class="temp"></h2>
+						<div class="weather__info">
+							<div class="weather__info-water">
+								<i
+									class="weather__info-icon fa-solid fa-water"
+								></i>
+								<div class="humidity">
+									<p></p>
+								</div>
+							</div>
+							<div class="weather__info-wind">
+								<i
+									class="weather__info-icon fa-solid fa-wind"
+								></i>
+								<div class="wind">
+									<p></p>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="container-weather__items">
+					<section class="weather__item">
+						<div class="weather__city">
+							<h2 class="weather__city-name">Каир</h2>
+						</div>
+						<i
+							class="weather__icon fa-solid fa-cloud"
+							id="icons"
+						></i>
+						<h2 class="temp"></h2>
+						<div class="weather__info">
+							<div class="weather__info-water">
+								<i
+									class="weather__info-icon fa-solid fa-water"
+								></i>
+								<div class="humidity">
+									<p></p>
+								</div>
+							</div>
+							<div class="weather__info-wind">
+								<i
+									class="weather__info-icon fa-solid fa-wind"
+								></i>
+								<div class="wind">
+									<p></p>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="container-weather__items">
+					<section class="weather__item">
+						<div class="weather__city">
+							<h2 class="weather__city-name">Dnepr</h2>
+						</div>
+						<i
+							class="weather__icon fa-solid fa-cloud"
+							id="icons"
+						></i>
+						<h2 class="temp"></h2>
+						<div class="weather__info">
+							<div class="weather__info-water">
+								<i
+									class="weather__info-icon fa-solid fa-water"
+								></i>
+								<div class="humidity">
+									<p></p>
+								</div>
+							</div>
+							<div class="weather__info-wind">
+								<i
+									class="weather__info-icon fa-solid fa-wind"
+								></i>
+								<div class="wind">
+									<p></p>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<script src="./main.js"></script>
+	</body>
+</html>
