@@ -127,6 +127,7 @@ h2 {
 .wrapper-country {
 	display: flex;
 	justify-content: space-between;
+	width: 370px;
 }
 
 .weather__city h2,
