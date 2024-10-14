@@ -17,6 +17,7 @@ body {
 	display: flex;
 	justify-content: center;
 	background-image: url(../images/sky.jpg);
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
@@ -82,6 +83,7 @@ button {
 }
 
 .city {
+	font-size: 55px;
 	margin-bottom: 25px;
 }
 
@@ -94,7 +96,7 @@ button {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 33px;
 	font-weight: 700;
 }
 
