@@ -96,7 +96,7 @@ body {
 
 .weather {
 	max-width: 300px;
-	background: linear-gradient(white 20%, rgba(164, 164, 242, 0.99) 80%);
+	background: linear-gradient(white 20%, rgba(164, 164, 242, 0.3) 80%);
 	border-radius: 10px;
 	padding: 25px 35px;
 	transition: 0.6 ease-out;
@@ -204,7 +204,7 @@ h2 {
 	align-items: center;
 }
 .container-weather__items {
-	background: linear-gradient(rgba(164, 164, 242, 0.99) 20%, white 80%);
+	background: linear-gradient(rgba(164, 164, 242, 0.1) 20%, white 80%);
 	border-radius: 10px;
 	padding: 10px;
 	width: calc(33% - 10px);
